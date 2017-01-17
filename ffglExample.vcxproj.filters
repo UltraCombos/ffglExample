@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ffglSDK_resolume">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ffglSDK_resolume\source">
+      <UniqueIdentifier>{d12b40f6-6986-4e5c-83f9-5d28e0461a99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ffglSDK_resolume\source\lib">
+      <UniqueIdentifier>{c0fd3cdd-a5be-4573-9333-6f6e7c7cbfea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ffglSDK_resolume\source\lib\ffgl">
+      <UniqueIdentifier>{69c08d96-aef5-472c-a268-e4d7dca889e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ffglSDK_resolume\source\lib\glee">
+      <UniqueIdentifier>{674f6098-4ce8-49fa-b555-b9baf7a56c82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ffglSDK_resolume\source\lib\ffgl\utilities">
+      <UniqueIdentifier>{90be3a3d-9558-48ac-b40e-df42aa9bfbcd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\ffglPlugIn.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ffglSDK_resolume\source\lib\ffgl\utilities\utilities.h">
+      <Filter>ffglSDK_resolume\source\lib\ffgl\utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ffglSDK_resolume\source\lib\ffgl\FFGL.h">
+      <Filter>ffglSDK_resolume\source\lib\ffgl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ffglSDK_resolume\source\lib\ffgl\FFGLFBO.h">
+      <Filter>ffglSDK_resolume\source\lib\ffgl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ffglSDK_resolume\source\lib\ffgl\FFGLLib.h">
+      <Filter>ffglSDK_resolume\source\lib\ffgl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ffglSDK_resolume\source\lib\ffgl\FFGLPluginInfo.h">
+      <Filter>ffglSDK_resolume\source\lib\ffgl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ffglSDK_resolume\source\lib\ffgl\FFGLPluginManager.h">
+      <Filter>ffglSDK_resolume\source\lib\ffgl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ffglSDK_resolume\source\lib\ffgl\FFGLPluginManager_inl.h">
+      <Filter>ffglSDK_resolume\source\lib\ffgl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ffglSDK_resolume\source\lib\ffgl\FFGLPluginSDK.h">
+      <Filter>ffglSDK_resolume\source\lib\ffgl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ffglSDK_resolume\source\lib\ffgl\FFGLShader.h">
+      <Filter>ffglSDK_resolume\source\lib\ffgl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ffglSDK_resolume\source\lib\ffgl\FreeFrame.h">
+      <Filter>ffglSDK_resolume\source\lib\ffgl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ffglSDK_resolume\source\lib\glee\GLee.h">
+      <Filter>ffglSDK_resolume\source\lib\glee</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\ffglPlugIn.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ffglSDK_resolume\source\lib\ffgl\utilities\utilities.cpp">
+      <Filter>ffglSDK_resolume\source\lib\ffgl\utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ffglSDK_resolume\source\lib\ffgl\FFGL.cpp">
+      <Filter>ffglSDK_resolume\source\lib\ffgl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ffglSDK_resolume\source\lib\ffgl\FFGLFBO.cpp">
+      <Filter>ffglSDK_resolume\source\lib\ffgl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ffglSDK_resolume\source\lib\ffgl\FFGLPluginInfo.cpp">
+      <Filter>ffglSDK_resolume\source\lib\ffgl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ffglSDK_resolume\source\lib\ffgl\FFGLPluginInfoData.cpp">
+      <Filter>ffglSDK_resolume\source\lib\ffgl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ffglSDK_resolume\source\lib\ffgl\FFGLPluginManager.cpp">
+      <Filter>ffglSDK_resolume\source\lib\ffgl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ffglSDK_resolume\source\lib\ffgl\FFGLPluginSDK.cpp">
+      <Filter>ffglSDK_resolume\source\lib\ffgl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ffglSDK_resolume\source\lib\ffgl\FFGLShader.cpp">
+      <Filter>ffglSDK_resolume\source\lib\ffgl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ffglSDK_resolume\source\lib\glee\GLee.c">
+      <Filter>ffglSDK_resolume\source\lib\glee</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
