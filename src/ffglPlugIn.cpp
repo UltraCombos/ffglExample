@@ -60,7 +60,7 @@ FFResult ffglPlugIn::DeInitGL()
 
 FFResult ffglPlugIn::ProcessOpenGL(ProcessOpenGLStruct *pGL)
 {  
-  return FF_SUCCESS;
+	return FF_SUCCESS;
 }
 
 FFResult ffglPlugIn::SetFloatParameter(unsigned int dwIndex, float value)
